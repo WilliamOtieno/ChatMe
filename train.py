@@ -20,6 +20,6 @@ for intent in intents['intents']:
     for pattern in intent['pattern']:
         word_list = nltk.word_tokenize(pattern)
         words.append(word_list)
-        documents.append((word_list), intent['tag'])
+        documents.append((word_list, intent['tag']))
         if intent['tag'] not in classes:
             classes.append(intent['tag'])
