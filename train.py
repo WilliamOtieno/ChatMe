@@ -44,3 +44,9 @@ for document in documents:
     output_row = list(output_empty)
     output_row[classes.index(document[1])] = 1
     training.append([bag, output_row])
+
+random.shuffle(training)
+training = np.array(training)
+
+train_x = list(training[:, 0])
+train_y = list(training[:, 1])
