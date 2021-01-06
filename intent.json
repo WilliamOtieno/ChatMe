@@ -17,6 +17,11 @@
   },
   {"tag":  "gender",
   "patterns":  ["Are you male or female", "are you a boy or a girl", "male or female", "boy or girl", "whats your sex", "whats your gender", "which gender"],
-  "responses":  ["Does it matter?", "People are more comfortable if I am female", "I wish I were a real person", "I am a bot"]}
-   ]
+  "responses":  ["Does it matter?", "People are more comfortable if I am female", "I wish I were a real person", "I am a bot"]
+  },
+  {"tag": "name",
+   "patterns": ["Who are you", "Whats your name", "What are you called", "Tell me your name"],
+   "responses": ["I am Samaritan", "I was named Samaritan", "You can call me Samaritan."]
+  }
+]
 }
